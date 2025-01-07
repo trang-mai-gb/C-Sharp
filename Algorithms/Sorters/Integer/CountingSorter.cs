@@ -32,7 +32,7 @@ public class CountingSorter : IIntegerSorter
         {
             return;
         }
-
+        // Define Variables
         var max = array.Max();
         var min = array.Min();
         var count = new int[max - min + 1];
